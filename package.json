@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/HelipengTony/tony#readme",
   "dependencies": {
-    "markdown-it-texmath": "^0.6.0"
+    "markdown-it-texmath": "^0.6.0",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
   }
 }
