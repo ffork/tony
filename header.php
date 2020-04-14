@@ -30,6 +30,7 @@
     <?php echo stripslashes(get_option('king_zztj')); ?>
     <script src="https://cdn.staticfile.org/highlight.js/9.18.1/highlight.min.js"></script>
     <link href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/a11y-dark.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body id="body">
