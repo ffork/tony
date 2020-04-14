@@ -21,7 +21,6 @@ html {
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
 
-    // html 单独判断夜间模式，设定旧系统默认样式
     @media (prefers-color-scheme: dark) {
         background: #1c1f2b !important;
         color: #bdcadb !important;
