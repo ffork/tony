@@ -19,7 +19,7 @@
     <?php echo stripslashes(get_option('king_zztj')); ?>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js" integrity="sha256-ngFW3UnAN0Tnm76mDuu7uUtYEcG3G5H1+zioJw3t+68=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css,npm/uikit@3.4.0/dist/css/uikit.min.css,gh/highlightjs/cdn-release@9.18.1/build/styles/a11y-dark.min.css,gh/ffork/tony@5.0.1/dist/css/style.min.css"></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css,npm/uikit@3.4.0/dist/css/uikit.min.css,gh/highlightjs/cdn-release@9.18.1/build/styles/a11y-dark.min.css,gh/ffork/tony@5.0.2/dist/css/style.min.css"></head>
 
 <body id="body">
 
