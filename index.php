@@ -263,5 +263,5 @@ else $m = 1;
     }
 </script>
 
-<script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/js/index.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ffork/tony@5.0.1/dist/js/index.js"></script>
 <?php get_footer(); ?>

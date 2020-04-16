@@ -12,20 +12,14 @@
     <link rel="Shortcut Icon" href="<?php echo get_option('king_ico') ?>" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.3.3/dist/umd/popper.min.js" integrity="sha256-c1uSn1f61GqTIIVhdV3jCb9sO38lvhpsIAJC2kLp1MY=" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.js" integrity="sha256-YpdLLevHetwErswvtZ0svK+oQeKc5aLXGvP0aAnNa0Y=" crossorigin="anonymous" type="module"></script>
-    <?php if (isset($_COOKIE['tony_view'])) { ?>
-        <link type="text/css" rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/darkmode.css">
-    <?php } else { ?>
-        <link type="text/css" rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/dist/css/style.css">
-    <?php } ?>
-    <link type="text/css" rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri());  ?>/css/caomei-cion.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ffork/tony@5.0.1/css/caomei-cion.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
-    <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/jquery.goup.js"></script>
-    <script src="<?php echo esc_url(get_template_directory_uri()); ?>/js/header.js"></script>
+    <script src="https://cdn.jsdelivr.net/combine/gh/ffork/tony@5.0.0/js/header.min.js,gh/ffork/tony@5.0.0/js/jquery.goup.min.js"></script>
     <?php echo stripslashes(get_option('king_zztj')); ?>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js" integrity="sha256-ngFW3UnAN0Tnm76mDuu7uUtYEcG3G5H1+zioJw3t+68=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css,npm/uikit@3.4.0/dist/css/uikit.min.css,gh/highlightjs/cdn-release@9.18.1/build/styles/a11y-dark.min.css"></head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css,npm/uikit@3.4.0/dist/css/uikit.min.css,gh/highlightjs/cdn-release@9.18.1/build/styles/a11y-dark.min.css,gh/ffork/tony@5.0.1/dist/css/style.min.css"></head>
 
 <body id="body">
 

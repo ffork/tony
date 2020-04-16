@@ -65,7 +65,7 @@ window.site_url = '<?php echo site_url() ?>';
 window.post_id = <?php echo $post->ID; ?>;
 </script>
 
-<script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/js/page.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ffork/tony@5.0.1/dist/js/page.js"></script>
 
 
 

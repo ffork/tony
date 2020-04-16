@@ -33,5 +33,5 @@ get_header(); ?>
     window.site_url = '<?php echo site_url() ?>';
     window.post_count = <?php $count_posts = wp_count_posts(); echo $published_posts =$count_posts->publish; ?>
 </script>
-<script type="text/javascript" src="<?php echo esc_url(get_template_directory_uri()); ?>/dist/js/posts.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ffork/tony@5.0.1/dist/js/posts.js"></script>
 <?php get_footer(); ?>
