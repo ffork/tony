@@ -98,9 +98,6 @@ else $m = 1;
                     <template v-if="!!post.post_tags.length">
                         <a v-for="tag in post.post_tags.slice(0,2)" :href="tag.url" v-html="tag.name"></a>
                     </template>
-                    <template v-else>
-                        <a>无标签</a>
-                    </template>
                 </div>
                 <!-- 一般分类标签 -->
                 

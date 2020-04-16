@@ -28,7 +28,7 @@
             <?php if (is_single()) { ?>
                 <div class="header-div1">
                     <a href="<?php echo site_url() ?>" style="display: inline-block;"><img src="<?php if(get_option('king_logo')) echo get_option('king_logo'); else echo 'https://static.ouorz.com/t.jpg' ?>"></a>
-                    <a href="<?php echo site_url() ?>/feed" style="display: inline-block;margin-top: 12px;margin-left: 15px;"><button type="button" class="btn btn-light" style="letter-spacing: 1px;font-weight: 500;">RSS订阅</button></a>
+                    <a href="<?php echo site_url() ?>" style="display: inline-block;margin-top: 12px;margin-left: 15px;"><button type="button" class="btn btn-light" style="letter-spacing: 1px;font-weight: 500;">返回首页</button></a>
                     <a style="margin-top: 12px;margin-left: 12px;"><button onclick="open_search();" type="button" class="btn btn-light" style="letter-spacing: 1px;font-weight: 500;">全局搜索</button></a>
                 </div>
             <?php } else { ?>
@@ -39,7 +39,6 @@
             <?php } ?>
             <!-- 菜单部分 -->
             <div class="header-div2">
-                <a href="<?php echo site_url() ?>"><button type="button" class="btn btn-light" style="letter-spacing: 1px;font-weight: 500;">首页</button></a>
                 <?php if (get_option('king_nav_pu') !== '') { ?>
                     <a href="<?php echo get_option('king_nav_pu'); ?>"><button type="button" class="btn btn-light" style="letter-spacing: 1px;font-weight: 500;"><?php echo get_option('king_nav_pn'); ?></button></a>
                 <?php } ?>
@@ -73,12 +72,6 @@
             </div>
         </header>
     <?php } ?>
-
-    <div id="view-div" class="center-info" style="display:none">
-        <p id="view-text">-&nbsp;<?php if (!is_single() && !is_page()) echo '文章列表';else echo '博客内容'; ?>&nbsp;-</p>
-    </div>
-
-
 
     <div id="jv-loadingbar"></div>
     <script type="text/javascript">
@@ -160,5 +153,5 @@
         })
     </script>
     <main role="main">
-        <div class="grid grid-centered" style="<?php if (!is_single() && !is_page()) echo 'max-width: 660px;padding: 0px 20px;margin-top: 80px;'; ?>">
+        <div class="grid grid-centered" style="<?php if (!is_single() && !is_page()) echo 'padding: 0px 20px;margin-top: 80px;'; ?>">
             <div class="grid-cell" id="grid-cell">
