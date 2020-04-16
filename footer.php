@@ -20,6 +20,11 @@ for (var i = 0, linksLength = links.length; i < linksLength; i++) {
   } 
 }
 </script>
+<style>
+.akismet_comment_form_privacy_notice {
+	line-height: 10!important
+}
+</style>
 </main>
 </body>
 
