@@ -14,7 +14,6 @@
         });
     });
 </script>
-<script type='module' src="https://cdn.jsdelivr.net/combine/npm/jquery@3.5.0,npm/uikit@3.4.0,npm/bootstrap@4.4.1/dist/js/bootstrap.min.js,npm/vue@2.6.11,npm/axios@0.19.2,npm/highlight.js@9.18.1/lib/highlight.min.js,npm/popper.js@1.16.1,npm/instant.page@3.0.0"></script></div>
 </main>
 </body>
 
